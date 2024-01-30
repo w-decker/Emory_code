@@ -3,7 +3,7 @@ from utils import *
 from config import IMAGE_DIR
 
 # plotting brain animation
-anim1 = anim_random_brain(cmap='copper', 
+anim1 = anim_random_brain(cmap='YlGnBu', 
                           view='lateral', 
                           func=random_brain,
                             frames=15, 
