@@ -106,7 +106,7 @@ def plot_univariate(rois, view, cmap: str):
 
     # plot
     p = plotting.plot_surf_roi(fsaverage['pial_left'], roi_map=mask,
-                                hemi='left', view='medial',
+                                hemi='left', view=view,
                                 bg_map=fsaverage['sulc_left'], bg_on_data=True,
                                 darkness=.5, cmap=cmap)
     
